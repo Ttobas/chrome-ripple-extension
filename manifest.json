@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "ripple",
+  "description": "Make osu! website work even with ripple on",
+  "version": "1.0",
+  "permissions": [
+    "http://osu.ppy.sh/*",
+    "https://osu.ppy.sh/*",
+	"http://104.20.52.28/*",
+	"https://104.20.52.28/*",
+	"cookies",
+	"storage",
+	"tabs",
+	"webRequest",
+	"webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "browser_action": {
+    "default_icon" : "img/icon128_On.png"
+  },
+  "icons": {
+    "128" : "img/icon_128.png"
+  },
+  "web_accessible_resources": [
+       "img/icon128_On.png",
+	   "img/icon128_Off.png"
+     ]
+  
+}
